@@ -5,4 +5,4 @@ Tasker is a lightweight To-Do list for Android thats focused on providing  a sim
 
 <a href="#"><img src="http://rezajafar.com/wp-content/uploads/2016/04/google-play-badge.png"
   alt="World Wide Web Consortium Home"
-  width="72" height="46" border="0" /></a>
+  width="150" height="46" border="0" /></a>
