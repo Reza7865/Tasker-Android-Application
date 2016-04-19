@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="320dp"
+    android:layout_height="210dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Add Task"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp" />
+
+    <EditText
+        android:id="@+id/taskEdit"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="Title"
+        android:autoText="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="     Priority"
+        android:id="@+id/textView"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="25dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="25dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/priorityRed"
+            android:baselineAlignBottom="false"
+            android:alpha="0.3"
+            android:background="#FFD70F00" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/priorityGreen"
+            android:background="#FF160FF9"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:alpha="0.3" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/priorityYellow"
+            android:background="@color/green"
+            android:alpha="0.3" />
+
+    </LinearLayout>
+
+</LinearLayout>
