@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="320dp"
+    android:layout_height="210dp"
+    android:paddingLeft="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Add Task"
+        android:id="@+id/textView2"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/taskEdit"
+        android:inputType="text|textMultiLine|textEmailAddress"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:autoText="false"
+        android:layout_below="@+id/textView2"
+        android:paddingTop="20dp"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#0027d7" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Priority"
+        android:id="@+id/textView"
+        android:paddingBottom="25dp"
+        android:textSize="15dp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_alignStart="@+id/taskEdit"
+        android:paddingTop="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/taskEdit"
+        android:layout_marginEnd="61dp"
+        android:paddingLeft="5dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/priorityRed"
+            android:baselineAlignBottom="false"
+            android:alpha="0.5"
+            android:background="#FFD70F00"
+
+
+
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/priorityGreen"
+            android:background="#dee82d"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:alpha=".5" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/priorityYellow"
+            android:background="@color/green"
+            android:alpha=".5" />
+
+    </LinearLayout>
+
+</LinearLayout>
