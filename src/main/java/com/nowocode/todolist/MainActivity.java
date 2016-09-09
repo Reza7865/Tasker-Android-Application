@@ -1,3 +1,6 @@
+//Author: Reza Jafar
+//App: Tasker
+
 package com.nowocode.todolist;
 
 import android.database.Cursor;
