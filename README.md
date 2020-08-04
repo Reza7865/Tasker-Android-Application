@@ -3,6 +3,6 @@ Tasker is a lightweight To-Do list for Android thats focused on providing  a sim
 
 <img src="http://rezajafar.com/wp-content/uploads/2016/05/Banner-2.jpg" alt="Tasker" style="width:304px;height:228px;">
 
-<a href="https://play.google.com/store/apps/details?id=com.nowocode.todolist&hl=en"><img src="http://rezajafar.com/wp-content/uploads/2016/05/D90D94331E54D2005CC8CEE352FF98ECF639.png"
+<a href="https://lh3.googleusercontent.com/whrrArVf-ia5-SkJr8_YD2tvoCGXsy6EFtuMsaLR8vdw_STTGXtzIu0eXsl7huj1iOYP=w1250-h872-rw"
   alt="World Wide Web Consortium Home"
   width="150" height="46" border="0" /></a>
